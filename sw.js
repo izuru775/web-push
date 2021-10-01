@@ -19,7 +19,6 @@ self.addEventListener('push', function (e) {
             },
         ]
     };
-    e.waitUntil(
-        self.registration.showNotification('Push Notification', options)
+    e.waitUntil(self.registration.showNotification('Push Notification', options)
     );
 });
