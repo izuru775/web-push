@@ -9,11 +9,10 @@ push.setVapidDetails('mailto:test@test.com', vapidKeys.publicKey, vapidKeys.priv
 
 // Usually the list of people in the db where we want to send the notification
 let sub = {
-    endpoint: "https://fcm.googleapis.com/fcm/send/fr17RyolaoY:APA91bEBns9T0nysPv0MdBSmPoQ_Ky9ukSVZLZMKwhfJ5aNDa1NmFvTmqXHjz_Db5E2Fgn6gceDX4bVZqhNCGRZOW4oO_TcDEIubw6WEbrHEI3452t_6D666D6HvyKRVlthRAHRD1Zjf",
-    expirationTime: null,
-    keys: {
-        p256dh: "BJwBI4qpw9dBKNrHfe_JH_3o02eAs1fYNewi-F9ila9wTa6SZ8CEGPqZCemEtjcut2NVviDSC68i2zVwIO5n1Nc",
-        auth: "NWw2f8_vEt1kdwZzspte6g"
+    endpoint: "https://updates.push.services.mozilla.com/wpush/v2/gAAAAABhV…qFZlJdrix9-k6La5rPZ9jSuSbKBRp6OEIzNM2nOtj7D5OtwrClJBLcJ_lAYw",
+    keys: { 
+        auth: "PnXWbCB2U-VFER3efwW3RA",
+        p256dh: "BNvcmqLM_uKLTVdALPyRSnCLSPq0Bu4ry8kBqiB1xc17fdD5-9GCezpU-IGRVqi4ACcW5273LyyJryC7-cu2HQ4" 
     }
 }
 
